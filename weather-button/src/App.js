@@ -20,7 +20,6 @@ function App() {
       });
   };
 
-
   return (
     <div>
       <h1>Click below to see weather in Medford</h1>
