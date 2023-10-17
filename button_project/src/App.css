@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#weather_button {
+        background-color: #61dafb; 
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        border-radius: 12px;
+        cursor: pointer;
+        box-shadow: 0 9px #808080;
+}
+
+#weather_button:hover {
+        background-color: #0db0dd;
+}
+
+#weather_button:active {
+        background-color: #0db0dd;
+        box-shadow: 0 4px #666;
+        transform: translateY(8px);
+}
