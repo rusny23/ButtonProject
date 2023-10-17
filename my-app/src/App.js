@@ -22,8 +22,8 @@ function App() {
     const temperature = data_array[0].app_temp
     const time = data_array[0].ob_time
 
-    temperature_html = <h3>Temperature: {temperature}</h3>
-    time_html = <h3>Temperature: {time}</h3>
+    temperature_html = <h3>Temperature: {temperature}&deg;F</h3>
+    time_html = <h3>Time: {time}</h3>
 
   }
 
